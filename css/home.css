@@ -1,0 +1,305 @@
+@font-face {
+	font-family: 'fuentes';
+	src:url('fuentes/icomoon.eot?-gxtb3c');
+	src:url('fuentes/icomoon.eot?#iefix-gxtb3c') format('embedded-opentype'),
+		url('fuentes/icomoon.woff?-gxtb3c') format('woff'),
+		url('fuentes/icomoon.ttf?-gxtb3c') format('truetype'),
+		url('fuentes/icomoon.svg?-gxtb3c#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'fuentes';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-atras:before {
+	content: "\e609";
+}
+.icon-adelante:before {
+	content: "\e60a";
+}
+.icon-imagenes:before {
+	content: "\e606";
+}
+.icon-video:before {
+	content: "\e605";
+}
+.icon-brujula:before {
+	content: "\e604";
+}
+.icon-contacto:before {
+	content: "\e603";
+}
+.icon-miperfil:before {
+	content: "\e600";
+}
+.icon-documento:before {
+	content: "\e60b";
+}
+.icon-facebook:before {
+	content: "\e608";
+}
+.icon-twitter:before {
+	content: "\e607";
+}
+.icon-anuncios:before {
+	content: "\e602";
+}
+.icon-trabajos:before {
+	content: "\e601";
+}
+
+/* Utilities */
+
+.u-title{
+	border-bottom: 2px dashed #00DBFF;
+	color: #00DBFF;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: .5em;
+
+}
+
+/* Main Menú
+
+.MainMenu{
+	background: #1e1e1e;
+	height: 3.75em;
+	left: 0;
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+.MainMenu-link{
+	color: #00DBFF;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin-right: 1.5em;
+}
+.MainMenu-list{
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-item{
+	display: inline-block;
+}
+.MainMenu-itemImage{
+	width: 5%;
+}
+
+/* Header */
+
+.Header{
+	background-image: url("../images/portada.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0;
+	padding: 1.5em 0;
+	text-align: center;
+}
+.Header-item{
+	background: #1e1e1e;
+	height: 3.75em;
+	left: 0;
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+.Header-comment{
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+.Header-image{
+	background-color: rgba(0, 0, 0, 0.43);
+	border: 3px solid white;
+	border-radius: 0.5em;
+	margin-right: .5em;
+	width: 180px;
+	height: 90px;
+}
+
+/* Profile */
+
+.Profile{
+	text-align: center;
+}
+.Profile-link{
+	background: orange;
+	border-radius: 2em;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+}
+
+/* Work */
+
+.Work{
+	margin-top: 2em;
+	text-align: center;
+}
+.Work-videoDescription{
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+.Work-imageDescription{
+	padding-bottom: .5em;
+	padding-top: .5em;		
+}
+
+/* Anuncios */
+
+.Anuncios{
+	margin-top: 2em;
+	text-align: center;
+}
+.Anuncios-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+.Anuncios-buttonContainer{
+	border: #b8052f solid 5px;
+	border-radius: .5em;
+	margin: 0;
+}
+.Anuncios-link{
+	text-decoration: none;
+}
+.Anuncios-buttonDescription{
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+
+/* SE ARRIENDA */
+/* SECCIÓN YELLOW */
+.Yellow{
+	background: #F6F3E0;
+	text-align: center;
+}
+.Yellow-ciudadTitle{
+	background: #e0d174;
+	color: white;
+	margin-top: 0;
+	padding: .5em;
+}
+.Yellow-buttonContainer{
+	border: 5px solid #C4C4C3;
+	border-radius: .5em;
+	padding: 0;
+}
+.Yellow-anclaButton{
+	text-decoration: none;
+}
+.Yellow-imageButton{
+	height: auto;
+	width: 1000px;
+}
+.Yellow-buttonDescription{
+	border: .5em;
+	color: black;
+	padding: .5em;
+}
+
+/* SECCIÓN GREEN */
+
+.Green{
+	background: #D2F7EE;
+	text-align: center;
+}
+.Green-ciudadTitle{
+	background: #00bf91;
+	color: white;
+	margin-top: 0;
+	padding: .5em;
+}
+.Green-image{
+	height: auto;
+	width: 1000px;
+}
+.Green-imageDescription{
+	border: .5em;
+	color: black;
+	padding: .5em;
+}
+
+/* BLUE */
+
+.Blue{
+	background: #D7EFF6;
+	text-align: center;
+}
+.Blue-ciudadTitle{
+	background: #00b9e7;
+	color: white;
+	margin-top: 0;
+	padding: .5em;
+}
+.Blue-image{
+	height: auto;
+	width: 400px;
+}
+.Blue-imageDescription{
+	border: .5em;
+	color: black;
+	padding: .5em;
+}
+/* Footer */
+
+.Footer{
+	background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: auto;
+	text-align: center;
+}
+.Footer-description{
+	color: white;	
+}
+.Footer-formInput,
+.Footer-textarea{
+	background: white;
+	border: none;
+	margin-bottom: 0.5em;
+	width: 800px;
+}
+.Footer-textarea{
+	height: 50px;
+	resize: none;
+}
+.Footer-formItemButton{
+	height: 30px;
+}
+.Footer-buttom{
+	background: orange;
+	border-radius: .5em;
+	color: white;
+	overflow: hidden;
+	padding: .5em;
+}
+
+
+			
+				
+				
+				
+				
+			
